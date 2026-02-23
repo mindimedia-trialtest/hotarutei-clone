@@ -31,3 +31,13 @@ export const FooterItems = [
   { id: 3, title: "Provacy Policy" },
   { id: 4, title: "Accomodation Policy" },
 ]
+
+export const AccessItems = [{
+  id: 1, desc: " From Nagano Station, 50 min by express bus."
+},
+{
+  id: 2, desc: "From Nagano Station, 50 min by limited express train."
+},
+{
+  id:3, desc: "From Yudanaka Station, 10 min by bus."
+}]
