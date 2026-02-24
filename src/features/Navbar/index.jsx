@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="flex justify-between px-6 items-center py-4 bg-[#f8f8f6]">
       <div className="flex flex-col lg:flex-row md:flex-row items-center gap-2 lg:gap-10">
         <Image
-          src="/assets/hotarutei-1.png"
+          src="/hotarutei-1.png"
           width={145}
           height={145}
           alt="Hotarutei"
