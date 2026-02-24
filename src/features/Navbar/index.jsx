@@ -12,6 +12,7 @@ const Navbar = () => {
           height={145}
           alt="Hotarutei"
           loading="eager"
+          unoptimized
         />
         <p className="font-semibold text-lg">Embrace 170 years of tradition</p>
       </div>
