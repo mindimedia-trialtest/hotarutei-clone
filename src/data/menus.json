@@ -1,0 +1,9 @@
+[
+  { "id": 1, "title": "Information" },
+  { "id": 2, "title": "Overview" },
+  { "id": 3, "title": "Restaurant" },
+  { "id": 4, "title": "Stay" },
+  { "id": 5, "title": "Access" },
+  { "id": 6, "title": "FAQ" },
+  { "id": 7, "title": "Contact" }
+]

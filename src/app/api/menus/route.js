@@ -1,5 +1,6 @@
 import menus from "@/data/menus.json";
+import { NextResponse } from "next/server";
 
 export async function GET() {
-  return Response.json(menus)
+  return NextResponse.json(menus)
 }

@@ -1,0 +1,51 @@
+ [
+    {
+      "id": 1,
+      "title": "Jigokudani Snow Monkey Park",
+      "img": "https://hotarutei.com/wp2023/wp-content/uploads/2023/11/%E9%87%8E%E7%8C%BF%E5%85%AC%E8%8B%91.webp",
+      "description": "The Jigokudani area is the only habitat in the world where wild Japanese macaques, also known as snow monkeys, have developed the unique behavior of soaking in hot springs. This fascinating ecological phenomenon attracts tourists not only from Japan but from all over the world, as they can observe the macaques up close. To reach the monkey park, visitors will need to walk approximately 1.6 kilometers along a natural trail from the entrance. It is essential to wear appropriate and comfortable footwear and clothing suitable for the season. On foot, the entrance to the Snow Monkey Park can be reached in only 8 minutes from our establishment."
+    },
+    {
+      "id": 2,
+      "title": "Shiga Kogen Ski Resort",
+      "img": "https://hotarutei.com/wp2023/wp-content/uploads/2023/11/%E5%BF%97%E8%B3%80%E9%AB%98%E5%8E%9F%E3%82%B9%E3%82%AD%E3%83%BC%E5%A0%B4.webp",
+      "description": "Japan's largest and highest ski resort, Shiga Kogen, is comprised of 18 different areas, catering to various levels of skiers and snowboarders. From beginner-friendly slopes perfect for families to over 2,000-meter downhill courses, there are plenty of ways to enjoy the resort. Comprising more than 600 hectares of terrain and more than 100 courses, including interconnected slopes, Shiga Kogen is sure to meet or even exceed your expectations. It is located approximately 20 minutes by car from our establishment."
+    },
+    {
+      "id": 3,
+      "title": "Yudanaka and Shibu Onsen Area",
+      "img": "https://hotarutei.com/wp2023/wp-content/uploads/2023/11/%E6%B8%8B%E6%B9%AF%E7%94%B0%E4%B8%AD.webp",
+      "description": "Located in the foothills of Shiga Kogen, this hot spring town consists of nine different areas: Yudanaka, Shibu, Andai, Kanbayashi, Shinyudanaka, Hoshikawa, Honami, Kakuma, and Jigokudani. Each district has its own source of hot spring water, allowing visitors the chance to try and compare each one. With a generous volume of hot spring water naturally flowing out from the earth every day, the springs here have an abundance of minerals. The beneficial effects of these range from improvements in skin quality to alleviating neuralgia, meaning that bathing in the hot spring is a refreshment not only for the mind but also for the body. The Yudanaka area is located only a 10 minute drive from our establishment."
+    },
+    {
+      "id": 4,
+      "title": "Obuse - Katsushika Hokusai",
+      "img": "https://hotarutei.com/wp2023/wp-content/uploads/2023/11/%E5%B0%8F%E5%B8%83%E6%96%BD.webp",
+      "description": "If you have an interest in Japanese art, we highly recommend visiting Obuse. Katsushika Hokusai, an ukiyo-e artist beloved worldwide, was deeply inspired by the scenic beauty of Obuse and relocated there to dedicate himself to his creative work. In Obuse, you can find the Shinshu Obuse Hokusai Museum, a unique art museum focusing on Hokusai's masterpieces, showcasing a wide array of works from his exceptionally long career. Additionally, at the Gansho-in temple in the east of Obuse, you can witness Hokusai's final masterpiece - an intricate and beautiful painting of a pheonix displayed on the ceiling of the temple, completed shortly before his passing at the age of 90. Obuse is only a 30 minute drive from our establishment."
+    },
+    {
+      "id": 5,
+      "title": "Nozawa Onsen",
+      "img": "https://hotarutei.com/wp2023/wp-content/uploads/2023/11/%E9%87%8E%E6%B2%A2%E6%B8%A9%E6%B3%89.webp",
+      "description": "A secluded hot spring town with a history of over 700 years, it is famous throughout Japan for its 13 public hot springs, all of which are free to enter. Each hot spring has its own unique aroma, color, and therapeutic benefits, allowing you to enjoy a variety of experiences as you explore the hot spring town. Nozawa Onsen is only a 45-minute drive from our establishment."
+    },
+    {
+      "id": 6,
+      "title": "Zenkoji Temple",
+      "img": "https://hotarutei.com/wp2023/wp-content/uploads/2023/11/%E5%96%84%E5%85%89%E5%AF%BA.webp",
+      "description": "One of Japan's most important Buddhist Temples, with a history of over 1,400 years. The main hall is designated as a national treasure, and grounds around the temple are home to many important artifcats and ancient religious relics. Alongside Nara's Todaiji Daibutsuden and Kyoto's Sanjusangendo, Zenkoji is one of Japan's most iconic wooden structures. Moreover, Zenkoji is a unique non-denominational temple, not affiliated with any specific sect. Every 7 years, a ceremony is held wherein a replica of the legendary-but-hidden statue around which Zenkoji was built, itself hundreds of years old, is shown to huge crowds of believers who gather from far and wide for a glimpse. Zenkoji Temple is located approximately one-hour by car from our establishment."
+    },
+    {
+      "id": 7,
+      "title": "Togakushi Shrine",
+      "img": "https://hotarutei.com/wp2023/wp-content/uploads/2023/11/%E6%88%B8%E9%9A%A0.webp",
+      "description": "A shrine composed of five separate, smaller shrines (Hoko-sha, Hino-miko-sha, Chuo-sha, Oku-sha, and Kuzuryu-sha), in which a number of well-known gods from Japanese mythology are enshrined. It is famous for the Gosha Meguri pilgrimage, where visitors can visit all five shrines. The approach to Togakushi Shrine Oku-sha is a breathtaking sight, as it spans approximately 500 meters from the Zuishinmon gate and is lined with over 200 massive cedar trees. This fantastical tree-lined path is renowned as one of Japan's most spirtually powerful spots. Togakushi Shrine is located approximately one-hour by car from our establishment."
+    },
+    {
+      "id": 8,
+      "title": "Kusatsu Onsen",
+      "img": "https://hotarutei.com/wp2023/wp-content/uploads/2023/11/%E8%8D%89%E6%B4%A5%E6%B8%A9%E6%B3%89.webp",
+      "description": "Kusatsu Onsen This hot spring town has been consistently rated as the best in Eastern Japan for centuries, and still holds that distinction today. It boasts Japan's largest output of hot spring water, and its therapeutic effects once attracted many feudal lords looking to heal the wounds they and their men had sustained during battle. Alongside Arima Onsen in Hyogo Prefecture and Gero Onsen in Gifu Prefecture, Kusatsu Onsen is one of the 3 most famous hot springs in the whole of Japan. The spring water is milky in appearance and highly acidic, with strong antibacterial properties, leading some to say it can cure all sickness except lovesickness.*Note: Access varies due to the seasonal closure of National Route 292. Summer Access: Approximately 1 hour and 15 minutes by car from our establishment. Winter Access: Approximately 2 hours and 10 minutes by car from our establishment."
+    }
+  ]
+
