@@ -1,0 +1,15 @@
+ [
+  {
+    "id": 1,
+    "time": "2025.07.22",
+    "type": "(Restaurant)",
+    "desc": "New Lunch Set Launching Soon"
+  },
+  { "id": 2, "time": "2024.12.18", "type": "Hotarutei Restaurant" },
+  {
+    "id": 3,
+    "time": "2025.07.22",
+    "type": "(Notice)",
+    "desc": "Notice of October 2024 'Closed Days'"
+  }
+]

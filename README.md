@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Name: Tjoet Muty Ahmad
 
-## Getting Started
+Position: Front End Programmer
 
-First, run the development server:
+*Trial Test*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **If you use JSON data, how would you structure it to support future scalability and maintainability?**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ `for this project, i structured the JSON data in a section-based format. Since the website consists of a single page with multiple sections, each section’s content is separated logically inside the JSON file or organized per feature. But, not all of the section data `
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. **If you decide to create your own API, which technology or framework would you use and why?**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`in this project, i use Next.js route to create a simple GET API. Because no additional backend setup for this project. But, if the project scales further, i would consider to use express.js because it simple and large ecosystem`
 
-## Learn More
+3. **How would you configure a custom domain (for example, www.clientwebsite.com) to point to your deployed project on Vercel?**
 
-To learn more about Next.js, take a look at the following resources:
+`at first, i do deploying this project to the vercel, go to the project settings then go to domain section. Add the custom domain.`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **If your project requires an admin panel to manage the website content, what technologies and approaches would you choose?**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`although this project uses JSON data, if an admin panel i would consider to use Next.js.`
 
-## Deploy on Vercel
+5. **What techniques would you use to ensure the website loads quickly even on slow internet connections?**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`i use Next.js image optimization, avoid unnecessary external libraries`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+6. **If you implement a form, how would you securely send the data to the backend server?**
+
+`this project does not implement a form. if required, i would validate input on both client side and server side.`
+
+7. **What strategies do you use to optimize images for performance without sacrificing quality?**
+
+`use Next.js Image component. most of the photos that i implement in this project are from external links (Hotarutei Website)`

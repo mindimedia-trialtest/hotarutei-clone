@@ -1,12 +1,22 @@
 "use client";
-import { GalleryPhotos } from "@/constants";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import axios from "axios";
 
 const Gallery = () => {
+  const [gallery, setGallery] = useState([])
+
+  useEffect(() => {
+    const getPhotos = async() => {
+      const res = await axios.get("/api/gallery");
+      const data = await res.data
+      setGallery(data);
+    }
+    getPhotos();
+  }, []);
   return (
     <div className="bg-[#f8f8f6]">
       <div className="flex border py-2 pr-2 mr-6 md:mr-6 lg:mr-56">
@@ -31,7 +41,7 @@ const Gallery = () => {
             },
           }}
         >
-          {[...GalleryPhotos, ...GalleryPhotos].map((photo, index) => (
+          {[...gallery, ...gallery].map((photo, index) => (
             <SwiperSlide key={index}>
               <div className="w-full h-50 sm:h-62.5 md:h-70 lg:h-75">
                 <Image

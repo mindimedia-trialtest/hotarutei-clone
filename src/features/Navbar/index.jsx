@@ -1,4 +1,4 @@
-import { Buttons } from "@/constants";
+import Buttons from "@/data/buttons.json";
 import Image from "next/image";
 import React from "react";
 
@@ -11,7 +11,7 @@ const Navbar = () => {
           width={145}
           height={145}
           alt="Hotarutei"
-          style={{ width: "auto", height: "auto" }}
+          loading="eager"
         />
         <p className="font-semibold text-lg">Embrace 170 years of tradition</p>
       </div>

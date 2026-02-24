@@ -1,7 +1,8 @@
-import { Infos } from "@/constants";
+import Infos from "@/data/infos.json";
 import Image from "next/image";
 import React from "react";
 import Icon1 from "../../../public/assets/icons/icon1";
+import Link from "next/link";
 
 const Information = () => {
   return (
@@ -38,9 +39,12 @@ const Information = () => {
             ))}
 
             <div className="mt-14">
-              <p className="text-lg font-semibold underline-offset-auto ">
+              <Link href="" className="flex gap-4 items-center underline text-lg font-semibold underline-offset-auto ">
                 View All
-              </p>
+                <div className="-rotate-90">
+                  <Icon1/>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

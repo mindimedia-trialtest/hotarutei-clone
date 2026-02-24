@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Icon1 from "../../../public/assets/icons/icon1";
+import Link from "next/link";
 
 const Stay = () => {
   return (
@@ -40,7 +41,10 @@ const Stay = () => {
               outdoor hot spring bath, you can enjoy the best of both - the
               simple and the luxurious during your stay.
             </p>
-            <p className="text-xl font-semibold">View Detail</p>
+            <Link href="#" className="flex gap-4 underline items-center text-xl font-semibold">View Detail
+            <div className="-rotate-90">
+              <Icon1/>
+              </div></Link>
           </div>
         </div>
       </div>

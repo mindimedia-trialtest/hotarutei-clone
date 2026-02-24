@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Icon from "../../../public/assets/icons/icon1";
 import axios from "axios";
+import Link from "next/link";
 
 const Menu = () => {
 const [menus, setMenus] = useState([]);
@@ -11,7 +12,6 @@ const [menus, setMenus] = useState([]);
       const res = await axios.get("/api/menus");
       const data = await res.data
       setMenus(data);
-      console.log(data)
     }
     getMenus();
   }, []);
@@ -23,9 +23,9 @@ const [menus, setMenus] = useState([]);
       </div>
       <div className="flex gap-4">
         {menus.map((item) => (
-          <p key={item.id} className="font-serif">
+          <Link href="#" key={item.id} className="font-serif hover:text-gray-500 cursor-pointer duration-300">
             {item.title}
-          </p>
+          </Link>
         ))}
       </div>
     </div>

@@ -1,10 +1,10 @@
-import { ReservationItems } from "@/constants";
+import ReservationItems from "@/data/reservation.json";
 import Link from "next/link";
 import React from "react";
 
 const Reservation = () => {
   return (
-    <div className="bg-[#f8f8f6]">
+    <div className="bg-[#f8f8f6] py-1 md:py-12 lg:py-32">
       <div className="container mx-auto px-4 ">
         <div className=" md:flex lg:flex justify-center gap-32 hidden">
           {ReservationItems.map((info) => (

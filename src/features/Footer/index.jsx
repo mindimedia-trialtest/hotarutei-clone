@@ -1,7 +1,22 @@
-import { Buttons, FooterItems, Menus, SocialMedia } from "@/constants";
-import React from "react";
+"use client";
+import { FooterItems } from "@/constants";
+import Buttons from "@/data/buttons.json";
+import SocialMedia from "@/data/socialmedia.json";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 
 const Footer = () => {
+  const [menus, setMenus] = useState([]);
+
+  useEffect(() => {
+    const getMenus = async () => {
+      const res = await axios.get("/api/menus");
+      const data = await res.data;
+      setMenus(data);
+      console.log(data);
+    };
+    getMenus();
+  }, []);
   return (
     <footer className="bg-[#6E726C] text-white">
       <div className="container mx-auto px-6 py-10">
@@ -23,7 +38,8 @@ const Footer = () => {
                   key={item.id}
                   className="text-sm cursor-pointer hover:opacity-70 flex items-center"
                 >
-                  {item.title} <span>{item.icon}</span>
+                  {item.title}
+                  {item.id === 3 && <span>{item.icon}</span>}
                 </p>
               ))}
             </div>
@@ -41,7 +57,7 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-wrap gap-3 text-md font-serif">
-              {Menus.map((item) => (
+              {menus.map((item) => (
                 <p key={item.id} className="cursor-pointer hover:opacity-70">
                   {item.title}
                 </p>
